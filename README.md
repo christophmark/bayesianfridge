@@ -1,9 +1,9 @@
 ![bayesianfridge](https://raw.githubusercontent.com/christophmark/bayesianfridge/master/docs/images/logo-500px.png)
 
-This package implements Bayesian annealed sequential importance sampling (BASIS), a Sequential Monte Carlo sampling technique described by [Wu2017](https://doi.org/10.1115/1.4037450). In particular, it implements the special case with a maximum chain length of one (l_max = 1). Sequential Monte Carlo methods stand out against MCMC or HMC methods as they are able to estimate the model evidence (also called marginal likelihood) which can be used to objectively compare models of varying complexity. We combine the algorithm by [Wu2017](https://doi.org/10.1115/1.4037450) with an optional tuning method for the proposal scaling factor beta, as described by [Minson2013](https://doi.org/10.1093/gji/ggt180). The sample function can perform parameter inference and model selection on any valid [pymc2](https://pymc-devs.github.io/pymc/)-model object.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/128050340.svg)](https://zenodo.org/badge/latestdoi/128050340)
+
+This package implements Bayesian annealed sequential importance sampling (BASIS), a Sequential Monte Carlo sampling technique described by [Wu2017](https://doi.org/10.1115/1.4037450). In particular, it implements the special case with a maximum chain length of one (l_max = 1). Sequential Monte Carlo methods stand out against MCMC or HMC methods as they are able to estimate the model evidence (also called marginal likelihood) which can be used to objectively compare models of varying complexity. We combine the algorithm by [Wu2017](https://doi.org/10.1115/1.4037450) with an optional tuning method for the proposal scaling factor beta, as described by [Minson2013](https://doi.org/10.1093/gji/ggt180). The sample function can perform parameter inference and model selection on any valid [pymc2](https://pymc-devs.github.io/pymc/)-model object.
 
 ## Installation
 The easiest way to install the latest release version of *bayesianfridge* is via `pip`:
